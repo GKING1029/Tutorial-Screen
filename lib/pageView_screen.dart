@@ -198,7 +198,7 @@ class _PageViewScreenState extends State<PageViewScreen> {
                     // _currentPage + 4;
                     pageController.nextPage(
                         duration: const Duration(milliseconds: 10),
-                        curve: Curves.bounceIn);
+                        curve: Curves.easeInCirc);
                     setState(() {});
                   }
                 },
